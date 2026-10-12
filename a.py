@@ -1,6 +1,8 @@
 from ollama import chat
-
-response = chat(
+import time
+timeToFirstToken = None
+start_time = time.time()
+stream = chat(
     model='qwen3.5:4b',
     messages=[
         {
@@ -8,13 +10,15 @@ response = chat(
             'content': 'What is 5+5? Explain too',
         },
     ],
+    stream=True
 )
-
-# Access the text response directly
-print(response.message.content)
-total_duration_sec = response.total_duration / 1e9  # Convert nanoseconds to seconds
-prompt_eval_sec = response.prompt_eval_duration / 1e9
-eval_sec = response.eval_duration / 1e9
-print(f"Total duration: {total_duration_sec:.2f} seconds")
-print(f"Prompt evaluation duration: {prompt_eval_sec:.2f} seconds")
-print(f"Evaluation duration: {eval_sec:.2f} seconds")   
+final_response = ''
+for chunk in stream:
+    if timeToFirstToken is None:
+        timeToFirstToken = time.perf_counter() - start_time
+    print(chunk['message']['content'],end='',flush=True)
+    final_response = chunk
+tps = final_response.eval_count / (final_response.eval_duration * 1000000000)
+print('Time to first token:', timeToFirstToken)
+print('Tokens per second (eval):', tps)
+print('Total duration: ',final_response.total_duration)
