@@ -15,32 +15,54 @@ for model in ['hf.co/bartowski/Qwen_Qwen3.5-4B-GGUF:Q2_K','hf.co/bartowski/Qwen_
         print(f'{dataset} loaded')
         resources = defaultdict(list)
         answers = defaultdict(list)
-        def getCPUandRAM():
-            while continueLoggingCPUAndRam:
-                process_name = "ollama.exe" 
-                pids = [proc.pid for proc in psutil.process_iter() if proc.name().lower() == process_name.lower()]
-                process = psutil.Process(pids[0]) if pids else None
-                cpu_usage = process.cpu_percent(interval=1)
+    def getCPUandRAM():
+        last_read_bytes = None
+        last_write_bytes = None
+        while continueLoggingCPUAndRam:
+            process_name = "ollama.exe" 
+            pids = [proc.pid for proc in psutil.process_iter() if proc.name().lower() == process_name.lower()]
+            process = psutil.Process(pids[0]) if pids else None
+            if process:
+                cpu_usage = process.cpu_percent(interval=None)
                 ram_usage = process.memory_percent()
                 ram_used = process.memory_info().rss / (1024 ** 2)
                 disk_usage = process.io_counters()
-                read_mb = disk_usage.read_bytes / (1024 ** 2)
-                write_mb = disk_usage.write_bytes / (1024 ** 2)
-                disk_usage = {'read_mb': read_mb, 'write_mb': write_mb}
+                if last_read_bytes is None:
+                    last_read_bytes = disk_usage.read_bytes
+                    last_write_bytes = disk_usage.write_bytes
+                    read_mb = 0.0
+                    write_mb = 0.0
+                else:
+                    read_delta = disk_usage.read_bytes - last_read_bytes
+                    write_delta = disk_usage.write_bytes - last_write_bytes
+                    
+                    last_read_bytes = disk_usage.read_bytes
+                    last_write_bytes = disk_usage.write_bytes
+                    
+                    read_mb = read_delta / (1024 ** 2)
+                    write_mb = write_delta / (1024 ** 2)
+                disk_usage_dict = {'read_mb': round(read_mb, 2), 'write_mb': round(write_mb, 2)}
                 for gpu in nvsmi.get_gpus():
-                    resources['gpu'].append({gpu.id: {'name': gpu.name, 'vram_total': gpu.mem_total, 'vram_used': gpu.mem_used, 'utilization': gpu.gpu_util}})
+                    resources['gpu'].append({
+                        gpu.id: {
+                            'name': gpu.name, 
+                            'vram_total': gpu.mem_total, 
+                            'vram_used': gpu.mem_used, 
+                            'utilization': gpu.gpu_util
+                        }
+                    })
+                    
                 resources['cpu'].append(cpu_usage)
-                resources['ram'].append({'usage_percent': round(ram_used,2), 'used_mb': ram_used})
-                resources['disk'].append(disk_usage)
-                time.sleep(1)
+                resources['ram'].append({'usage_percent': round(ram_usage, 2), 'used_mb': round(ram_used, 2)})
+                resources['disk'].append(disk_usage_dict)
+            time.sleep(1)
         timeToFirstToken = None # seconds
         start_time = time.perf_counter()
         totalEvalCount = 0
         totalEvalDuration = 0
         totalDuration = 0 #seconds
-        #turn into a while loop that retries on done_reason=length
         print(f'Evaluating {model} on {dataset}')
-        for index in range(len(tests['questions'])):
+        for index in range(len(tests['questions'][:1])):
             print(index,'Current')
             continueLoggingCPUAndRam = True
             fullResponse = ''
@@ -50,12 +72,13 @@ for model in ['hf.co/bartowski/Qwen_Qwen3.5-4B-GGUF:Q2_K','hf.co/bartowski/Qwen_
                 messages=[
                     {
                         'role': 'user',
-                        'content': tests['prompt'][0] + tests['questions'][index],
+                        'content': tests['prompt'][0] + tests['questions'][index] + ('Options: ' + ('\n'.join(tests['options'][idx]) if tests['options'][idx] != None else 'No options')),
                     },
                 ],
                 options = {
-                    'num_ctx':8192, #16k tokens
-                    'num_predict':4096
+                    'num_ctx':16384, 
+                    'num_predict':-1,
+                    'temperature':0.0
                 },
                 stream=True
             )

@@ -23,14 +23,17 @@ def loadByName(name):
             returnDict['answers'].append(dataset['answerKey'][x])
             returnDict['options'].append(dataset['choices'][x]['text'])
     elif name == "MATH-500":
+        print(dataset)
         prompt = 'Solve these Mathmatics problems and state your answer in the end. \n'
         for x in range(len(dataset)):
             returnDict['questions'].append(dataset['problem'][x])
+            returnDict['options'].append(None)
             returnDict['answers'].append(dataset['answer'][x])
     elif name == 'HUMANEVAL+':
         prompt = 'Solve these programming problems and provide the code in the end. \n'
         for x in range(len(dataset)):
             returnDict['questions'].append(dataset['prompt'][x])
+            returnDict['options'].append(None)
             returnDict['answers'].append(dataset['canonical_solution'][x])
     prompt += 'Do not explain yourself. Just return the answer.'
     returnDict['prompt'] = [prompt]

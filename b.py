@@ -1,2 +1,2 @@
-from reset import reset
-reset()
+from compileResults import compile
+compile()

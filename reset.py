@@ -4,7 +4,6 @@ def reset():
     path = 'results'
     models = [str(x) + '-bit' for x in range(2,7)]
     datasets = ['MMLU-PRO','ARC-CHALLENGE','HUMANEVAL+','MATH-500']
-    print(models)
     #delete folder
     for x in os.listdir(path):
         shutil.rmtree(f'{path}/{x}')
@@ -12,3 +11,5 @@ def reset():
     for dataset in datasets:
         for model in models:
             os.makedirs(f'{path}/{dataset}/{model}',exist_ok=True)
+if __name__ == '__main__':
+    reset()
