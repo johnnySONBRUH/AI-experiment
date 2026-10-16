@@ -1,0 +1,51 @@
+```python
+from typing import List
+
+
+def has_close_elements(numbers: List[float], threshold: float) -> bool:
+    """ Check if in given list of numbers, are any two numbers closer to each other than
+    given threshold.
+    >>> has_close_elements([1.0, 2.0, 3.0], 0.5)
+    False
+    >>> has_close_elements([1.0, 2.8, 3.0, 4.0, 5.0, 2.0], 0.3)
+    True
+    """
+    sorted_numbers = sorted(numbers)
+    for i in range(len(sorted_numbers) - 1):
+        if sorted_numbers[i + 1] - sorted_numbers[i] < threshold:
+            return True
+    return False
+``` ```python
+from typing import List
+
+
+def separate_paren_groups(paren_string: str) -> List[str]:
+    """ Input to this function is a string containing multiple groups of nested parentheses. Your goal is to
+    separate those group into separate strings and return the list of those.
+    Separate groups are balanced (each open brace is properly closed) and not nested within each other
+    Ignore any spaces in the input string.
+    >>> separate_paren_groups('( ) (( )) (( )( ))')
+    ['()', '(())', '(()())']
+    """
+    groups = []
+    current_group = []
+    balance = 0
+    
+    for char in paren_string:
+        if char == ' ':
+            continue
+        
+        if char == '(':
+            current_group.append(char)
+            balance += 1
+        elif char == ')':
+            current_group.append(char)
+            balance -= 1
+        
+        if balance == 0 and current_group:
+            groups.append(''.join(current_group))
+            current_group = []
+    
+    return groups
+```
+['\n\n    sorted_numbers = sorted(numbers)\n    for i in range(len(sorted_numbers) - 1):\n        if sorted_numbers[i + 1] - sorted_numbers[i] < threshold:\n            return True\n    return False\n\n', '\n\n    cnt, group, results = 0, "", []\n    for ch in paren_string:\n        if ch == "(": cnt += 1\n        if ch == ")": cnt -= 1\n        if ch != " ": group += ch\n        if cnt == 0:\n            if group != "": results.append(group)\n            group = ""\n    return results\n\n']0<- correct

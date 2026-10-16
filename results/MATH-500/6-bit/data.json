@@ -1,0 +1,1458 @@
+{
+    "gpu": [
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 90.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 90.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 82.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 90.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 90.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 95.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 89.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 95.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 91.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 92.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 4965.0,
+                "utilization": 93.0
+            }
+        }
+    ],
+    "cpu": [
+        0.0,
+        4.7,
+        1.6,
+        4.7,
+        3.1,
+        4.7,
+        6.2,
+        0.0,
+        3.1,
+        1.6,
+        0.0,
+        3.1,
+        3.1,
+        6.2,
+        0.0,
+        3.1,
+        3.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.1,
+        3.1,
+        3.1,
+        0.0,
+        6.2,
+        1.6,
+        0.0,
+        3.1,
+        0.0,
+        0.0,
+        1.6,
+        1.6,
+        3.1,
+        3.1,
+        0.0,
+        0.0,
+        4.7,
+        1.6,
+        1.6,
+        1.6,
+        1.6,
+        0.0,
+        10.9,
+        4.7,
+        6.2,
+        3.1,
+        1.6,
+        0.0,
+        1.6,
+        3.1,
+        3.1,
+        3.1,
+        4.7,
+        3.1,
+        3.1,
+        1.6,
+        0.0,
+        3.1,
+        1.6,
+        1.6,
+        1.6,
+        0.0,
+        1.6,
+        1.6,
+        1.6,
+        1.6,
+        3.1,
+        3.1,
+        3.1,
+        0.0,
+        0.0,
+        3.1,
+        1.6,
+        1.6,
+        1.6,
+        0.0,
+        0.0,
+        3.1,
+        0.0,
+        3.1,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+    ],
+    "ram": [
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.3984375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.40234375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.40234375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.40234375
+        },
+        {
+            "usage_percent": 28.4,
+            "used_mb": 28.40234375
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        },
+        {
+            "usage_percent": 28.41,
+            "used_mb": 28.40625
+        }
+    ],
+    "disk": [
+        {
+            "read_mb": 4779.268217086792,
+            "write_mb": 4547.292991638184
+        },
+        {
+            "read_mb": 4779.268217086792,
+            "write_mb": 4547.292991638184
+        },
+        {
+            "read_mb": 4779.268305778503,
+            "write_mb": 4547.293080329895
+        },
+        {
+            "read_mb": 4779.268394470215,
+            "write_mb": 4547.293169021606
+        },
+        {
+            "read_mb": 4779.268483161926,
+            "write_mb": 4547.293257713318
+        },
+        {
+            "read_mb": 4779.268483161926,
+            "write_mb": 4547.293257713318
+        },
+        {
+            "read_mb": 4779.268571853638,
+            "write_mb": 4547.293346405029
+        },
+        {
+            "read_mb": 4779.268660545349,
+            "write_mb": 4547.293435096741
+        },
+        {
+            "read_mb": 4779.268660545349,
+            "write_mb": 4547.293435096741
+        },
+        {
+            "read_mb": 4779.268749237061,
+            "write_mb": 4547.293523788452
+        },
+        {
+            "read_mb": 4779.268837928772,
+            "write_mb": 4547.293612480164
+        },
+        {
+            "read_mb": 4779.268837928772,
+            "write_mb": 4547.293612480164
+        },
+        {
+            "read_mb": 4779.268926620483,
+            "write_mb": 4547.293701171875
+        },
+        {
+            "read_mb": 4779.269015312195,
+            "write_mb": 4547.293789863586
+        },
+        {
+            "read_mb": 4779.269015312195,
+            "write_mb": 4547.293789863586
+        },
+        {
+            "read_mb": 4779.269104003906,
+            "write_mb": 4547.293878555298
+        },
+        {
+            "read_mb": 4779.269192695618,
+            "write_mb": 4547.293967247009
+        },
+        {
+            "read_mb": 4779.269281387329,
+            "write_mb": 4547.294055938721
+        },
+        {
+            "read_mb": 4779.269281387329,
+            "write_mb": 4547.294055938721
+        },
+        {
+            "read_mb": 4779.2693700790405,
+            "write_mb": 4547.294144630432
+        },
+        {
+            "read_mb": 4779.269458770752,
+            "write_mb": 4547.294233322144
+        },
+        {
+            "read_mb": 4779.269458770752,
+            "write_mb": 4547.294233322144
+        },
+        {
+            "read_mb": 4779.269547462463,
+            "write_mb": 4547.294322013855
+        },
+        {
+            "read_mb": 4779.269636154175,
+            "write_mb": 4547.294410705566
+        },
+        {
+            "read_mb": 4779.269636154175,
+            "write_mb": 4547.294410705566
+        },
+        {
+            "read_mb": 4779.2859144210815,
+            "write_mb": 4547.29873752594
+        },
+        {
+            "read_mb": 4779.2859144210815,
+            "write_mb": 4547.29873752594
+        },
+        {
+            "read_mb": 4779.2859144210815,
+            "write_mb": 4547.29873752594
+        },
+        {
+            "read_mb": 4779.286003112793,
+            "write_mb": 4547.298826217651
+        },
+        {
+            "read_mb": 4779.286003112793,
+            "write_mb": 4547.298826217651
+        },
+        {
+            "read_mb": 4779.286003112793,
+            "write_mb": 4547.298826217651
+        },
+        {
+            "read_mb": 4779.286091804504,
+            "write_mb": 4547.298914909363
+        },
+        {
+            "read_mb": 4779.286091804504,
+            "write_mb": 4547.298914909363
+        },
+        {
+            "read_mb": 4779.286180496216,
+            "write_mb": 4547.299003601074
+        },
+        {
+            "read_mb": 4779.286180496216,
+            "write_mb": 4547.299003601074
+        },
+        {
+            "read_mb": 4779.286180496216,
+            "write_mb": 4547.299003601074
+        },
+        {
+            "read_mb": 4779.286180496216,
+            "write_mb": 4547.299003601074
+        },
+        {
+            "read_mb": 4779.286269187927,
+            "write_mb": 4547.299092292786
+        },
+        {
+            "read_mb": 4779.286269187927,
+            "write_mb": 4547.299092292786
+        },
+        {
+            "read_mb": 4779.286357879639,
+            "write_mb": 4547.299180984497
+        },
+        {
+            "read_mb": 4779.286357879639,
+            "write_mb": 4547.299180984497
+        },
+        {
+            "read_mb": 4779.286357879639,
+            "write_mb": 4547.299180984497
+        },
+        {
+            "read_mb": 4779.28644657135,
+            "write_mb": 4547.2992696762085
+        },
+        {
+            "read_mb": 4779.28644657135,
+            "write_mb": 4547.2992696762085
+        },
+        {
+            "read_mb": 4779.28644657135,
+            "write_mb": 4547.2992696762085
+        },
+        {
+            "read_mb": 4779.2865352630615,
+            "write_mb": 4547.29935836792
+        },
+        {
+            "read_mb": 4779.2865352630615,
+            "write_mb": 4547.29935836792
+        },
+        {
+            "read_mb": 4779.2865352630615,
+            "write_mb": 4547.29935836792
+        },
+        {
+            "read_mb": 4779.286623954773,
+            "write_mb": 4547.299447059631
+        },
+        {
+            "read_mb": 4779.286623954773,
+            "write_mb": 4547.299447059631
+        },
+        {
+            "read_mb": 4779.286623954773,
+            "write_mb": 4547.299447059631
+        },
+        {
+            "read_mb": 4779.286712646484,
+            "write_mb": 4547.299535751343
+        },
+        {
+            "read_mb": 4779.286712646484,
+            "write_mb": 4547.299535751343
+        },
+        {
+            "read_mb": 4779.286712646484,
+            "write_mb": 4547.299535751343
+        },
+        {
+            "read_mb": 4779.286801338196,
+            "write_mb": 4547.299624443054
+        },
+        {
+            "read_mb": 4779.286801338196,
+            "write_mb": 4547.299624443054
+        },
+        {
+            "read_mb": 4779.286801338196,
+            "write_mb": 4547.299624443054
+        },
+        {
+            "read_mb": 4779.286890029907,
+            "write_mb": 4547.299713134766
+        },
+        {
+            "read_mb": 4779.286890029907,
+            "write_mb": 4547.299713134766
+        },
+        {
+            "read_mb": 4779.286978721619,
+            "write_mb": 4547.299801826477
+        },
+        {
+            "read_mb": 4779.286978721619,
+            "write_mb": 4547.299801826477
+        },
+        {
+            "read_mb": 4779.286978721619,
+            "write_mb": 4547.299801826477
+        },
+        {
+            "read_mb": 4779.286978721619,
+            "write_mb": 4547.299801826477
+        },
+        {
+            "read_mb": 4779.28706741333,
+            "write_mb": 4547.2998905181885
+        },
+        {
+            "read_mb": 4779.28706741333,
+            "write_mb": 4547.2998905181885
+        },
+        {
+            "read_mb": 4779.2871561050415,
+            "write_mb": 4547.2999792099
+        },
+        {
+            "read_mb": 4779.2871561050415,
+            "write_mb": 4547.2999792099
+        },
+        {
+            "read_mb": 4779.2871561050415,
+            "write_mb": 4547.2999792099
+        },
+        {
+            "read_mb": 4779.287244796753,
+            "write_mb": 4547.300067901611
+        },
+        {
+            "read_mb": 4779.287244796753,
+            "write_mb": 4547.300067901611
+        },
+        {
+            "read_mb": 4779.287244796753,
+            "write_mb": 4547.300067901611
+        },
+        {
+            "read_mb": 4779.287333488464,
+            "write_mb": 4547.300156593323
+        },
+        {
+            "read_mb": 4779.287333488464,
+            "write_mb": 4547.300156593323
+        },
+        {
+            "read_mb": 4779.287333488464,
+            "write_mb": 4547.300156593323
+        },
+        {
+            "read_mb": 4779.287422180176,
+            "write_mb": 4547.300245285034
+        },
+        {
+            "read_mb": 4779.287422180176,
+            "write_mb": 4547.300245285034
+        },
+        {
+            "read_mb": 4779.287422180176,
+            "write_mb": 4547.300245285034
+        },
+        {
+            "read_mb": 4779.287510871887,
+            "write_mb": 4547.300333976746
+        },
+        {
+            "read_mb": 4779.287510871887,
+            "write_mb": 4547.300333976746
+        },
+        {
+            "read_mb": 4779.287510871887,
+            "write_mb": 4547.300333976746
+        },
+        {
+            "read_mb": 4779.287599563599,
+            "write_mb": 4547.300422668457
+        },
+        {
+            "read_mb": 4779.287599563599,
+            "write_mb": 4547.300422668457
+        },
+        {
+            "read_mb": 4779.287599563599,
+            "write_mb": 4547.300422668457
+        },
+        {
+            "read_mb": 4779.28768825531,
+            "write_mb": 4547.3005113601685
+        },
+        {
+            "read_mb": 4779.28768825531,
+            "write_mb": 4547.3005113601685
+        }
+    ],
+    "time_to_first_token": 0.17987550000543706,
+    "tokens_per_second": 53221322303.75368,
+    "total_duration": 113.6174899
+}

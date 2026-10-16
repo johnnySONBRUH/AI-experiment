@@ -1,2 +1,2 @@
-from loadByName import loadByName
-loadByName('HUMANEVAL+')
+from reset import reset
+reset()

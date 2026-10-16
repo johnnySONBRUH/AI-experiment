@@ -1,0 +1,2 @@
+$(3, \frac{\pi}{2})$ 
+['\\left( 3, \\frac{\\pi}{2} \\right)', 'p - q']0<- correct

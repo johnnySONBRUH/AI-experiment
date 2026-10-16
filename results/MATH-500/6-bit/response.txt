@@ -1,0 +1,2 @@
+(3, \frac{\pi}{2}) p - q
+['\\left( 3, \\frac{\\pi}{2} \\right)', 'p - q']1<- correct
