@@ -6,9 +6,11 @@ def summariseJSON(dataset,model):
         return json.loads(f.read())
 def compile():
     import os
+    import json
+    import constants
     path = 'results'
-    models = [str(x) + '-bit' for x in range(2,7)]
-    datasets = ['MMLU-PRO','ARC-CHALLENGE','HUMANEVAL+','MATH-500']
+    models = constants.MODELS_BIT
+    datasets = constants.DATASETS
     result = {}
     for dataset in datasets:
         d = {}
@@ -44,3 +46,5 @@ def compile():
             d[model] = d2
         result[model] = d
     print(result)
+    with open('overall.json','w') as f:
+        f.write(json.dumps(result,indent=4))

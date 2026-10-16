@@ -23,7 +23,6 @@ def loadByName(name):
             returnDict['answers'].append(dataset['answerKey'][x])
             returnDict['options'].append(dataset['choices'][x]['text'])
     elif name == "MATH-500":
-        print(dataset)
         prompt = 'Solve these Mathmatics problems and state your answer in the end. \n'
         for x in range(len(dataset)):
             returnDict['questions'].append(dataset['problem'][x])

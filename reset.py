@@ -1,9 +1,10 @@
 def reset():
     import os
     import shutil
+    import constants
     path = 'results'
-    models = [str(x) + '-bit' for x in range(2,7)]
-    datasets = ['MMLU-PRO','ARC-CHALLENGE','HUMANEVAL+','MATH-500']
+    models = constants.MODELS_BIT
+    datasets = constants.DATASETS
     #delete folder
     for x in os.listdir(path):
         shutil.rmtree(f'{path}/{x}')
