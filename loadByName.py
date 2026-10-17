@@ -34,6 +34,6 @@ def loadByName(name):
             returnDict['questions'].append(dataset['prompt'][x])
             returnDict['options'].append(None)
             returnDict['answers'].append(dataset['canonical_solution'][x])
-    prompt += 'Do not explain yourself. Just return the answer.'
+    prompt += 'Format your response like this: ANSWER: {answer} STOP'
     returnDict['prompt'] = [prompt]
     return returnDict

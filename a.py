@@ -77,10 +77,10 @@ for model in constants.MODELS:
                     },
                 ],
                 options = {
-                    'num_ctx':constants.DATASET_CONFIG[dataset]['ctx'], 
-                    'num_predict':constants.DATASET_CONFIG[dataset]['predict'],
+                    'num_ctx':16384, 
+                    'num_predict':4096,
                     'temperature':0.0,
-                    'enable_thinking':False
+                    'stop':['STOP']
                 },
                 stream=True
             )
