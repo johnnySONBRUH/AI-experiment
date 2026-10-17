@@ -1,0 +1,47 @@
+{
+    "gpu": [
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 3699.0,
+                "utilization": 0.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 3699.0,
+                "utilization": 92.0
+            }
+        }
+    ],
+    "cpu": [
+        0.0,
+        0.0
+    ],
+    "ram": [
+        {
+            "usage_percent": 0.63,
+            "used_mb": 99.03
+        },
+        {
+            "usage_percent": 0.63,
+            "used_mb": 99.03
+        }
+    ],
+    "disk": [
+        {
+            "read_mb": 0.0,
+            "write_mb": 0.0
+        },
+        {
+            "read_mb": 0.01,
+            "write_mb": 0.0
+        }
+    ],
+    "time_to_first_token": 0.28745650000928435,
+    "tokens_per_second": 62934407413.886536,
+    "total_duration": 1.219802
+}
