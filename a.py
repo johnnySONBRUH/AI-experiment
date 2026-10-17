@@ -8,8 +8,10 @@ import threading
 import time
 import nvsmi
 from loadByName import loadByName
+from reset import reset
 from compileResults import compile
 from data import writeData
+reset()
 for model in constants.MODELS:
     for dataset in constants.DATASETS:
         def getCPUandRAM():
@@ -63,17 +65,19 @@ for model in constants.MODELS:
         totalEvalDuration = 0
         totalDuration = 0 #seconds
         print(f'Evaluating {model} on {dataset}')
-        for index in range(len(tests['questions'][:1])):
+        for index in range(len(tests['questions'][:3])):
             print(index,'Current')
             continueLoggingCPUAndRam = True
             fullResponse = ''
             final_response = ''
+            prompt = f'Current prompt: {tests['prompt'][0] + tests['questions'][index] + ('\nOptions: ' + (str(tests['options'][index]) if tests['options'][index] != None else 'No options'))}'
+            print(prompt)
             stream = chat(
                 model=model,
                 messages=[
                     {
                         'role': 'user',
-                        'content': tests['prompt'][0] + tests['questions'][index] + ('Options: ' + (str(tests['options'][index]) if tests['options'][index] != None else 'No options')),
+                        'content': prompt,
                     },
                 ],
                 options = {

@@ -7,7 +7,6 @@ def loadByName(name):
         'HUMANEVAL+':"HumanEval+",
         'MATH-500':"MATH-500"
     }
-    print(f'datasets/{d[name]}')
     dataset = load_from_disk(f'datasets/{d[name]}')['test']
     returnDict = defaultdict(list)
     prompt = ''
@@ -25,7 +24,7 @@ def loadByName(name):
             opts = []
             for y in range(len(dataset['choices'][x]['text'])):
                 opts.append(f'{dataset['choices'][x]['label'][y]}. {dataset['choices'][x]['text'][y]}')
-            returnDict['options'].append(opts)
+            returnDict['options'].append('\n'.join(opts))
     elif name == "MATH-500":
         prompt = 'Solve these Mathmatics problems and state your answer in the end. \n'
         for x in range(len(dataset)):
@@ -38,6 +37,6 @@ def loadByName(name):
             returnDict['questions'].append(dataset['prompt'][x])
             returnDict['options'].append(None)
             returnDict['answers'].append(dataset['canonical_solution'][x])
-    prompt += 'Format your response like this: ANSWER: {answer} STOP'
+    prompt += 'Do not return an empty response and please format your response like this: ANSWER: {answer} STOP' + '\n'
     returnDict['prompt'] = [prompt]
     return returnDict

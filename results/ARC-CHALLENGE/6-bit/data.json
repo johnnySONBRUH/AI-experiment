@@ -1,0 +1,200 @@
+{
+    "gpu": [
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 5147.0,
+                "utilization": 0.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 5147.0,
+                "utilization": 95.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 5147.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 5147.0,
+                "utilization": 86.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 5147.0,
+                "utilization": 95.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 5147.0,
+                "utilization": 96.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 5147.0,
+                "utilization": 96.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 5147.0,
+                "utilization": 33.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 5147.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 5147.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 5147.0,
+                "utilization": 93.0
+            }
+        }
+    ],
+    "cpu": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+    ],
+    "ram": [
+        {
+            "usage_percent": 0.63,
+            "used_mb": 98.89
+        },
+        {
+            "usage_percent": 0.63,
+            "used_mb": 98.89
+        },
+        {
+            "usage_percent": 0.63,
+            "used_mb": 98.89
+        },
+        {
+            "usage_percent": 0.63,
+            "used_mb": 98.91
+        },
+        {
+            "usage_percent": 0.63,
+            "used_mb": 98.91
+        },
+        {
+            "usage_percent": 0.63,
+            "used_mb": 98.92
+        },
+        {
+            "usage_percent": 0.63,
+            "used_mb": 98.93
+        },
+        {
+            "usage_percent": 0.63,
+            "used_mb": 98.94
+        },
+        {
+            "usage_percent": 0.63,
+            "used_mb": 98.94
+        },
+        {
+            "usage_percent": 0.63,
+            "used_mb": 98.94
+        },
+        {
+            "usage_percent": 0.63,
+            "used_mb": 98.95
+        }
+    ],
+    "disk": [
+        {
+            "read_mb": 0.0,
+            "write_mb": 0.0
+        },
+        {
+            "read_mb": 0.01,
+            "write_mb": 0.0
+        },
+        {
+            "read_mb": 0.0,
+            "write_mb": 0.0
+        },
+        {
+            "read_mb": 0.02,
+            "write_mb": 0.0
+        },
+        {
+            "read_mb": 0.02,
+            "write_mb": 0.0
+        },
+        {
+            "read_mb": 0.0,
+            "write_mb": 0.0
+        },
+        {
+            "read_mb": 0.0,
+            "write_mb": 0.0
+        },
+        {
+            "read_mb": 0.02,
+            "write_mb": 0.0
+        },
+        {
+            "read_mb": 0.02,
+            "write_mb": 0.0
+        },
+        {
+            "read_mb": 0.02,
+            "write_mb": 0.0
+        },
+        {
+            "read_mb": 0.0,
+            "write_mb": 0.0
+        }
+    ],
+    "time_to_first_token": 0.38041359999624547,
+    "tokens_per_second": 55392050531.73045,
+    "total_duration": 5.2117891
+}

@@ -1,0 +1,2 @@
+  
+['\\left( 3, \\frac{\\pi}{2} \\right)', 'p - q', '\\frac{14}{3}']0<- correct

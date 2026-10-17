@@ -13,22 +13,74 @@
                 "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
                 "vram_total": 8188.0,
                 "vram_used": 3699.0,
-                "utilization": 92.0
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 3699.0,
+                "utilization": 93.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 3699.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 3699.0,
+                "utilization": 94.0
+            }
+        },
+        {
+            "0": {
+                "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+                "vram_total": 8188.0,
+                "vram_used": 3699.0,
+                "utilization": 80.0
             }
         }
     ],
     "cpu": [
         0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
         0.0
     ],
     "ram": [
         {
-            "usage_percent": 0.63,
-            "used_mb": 99.03
+            "usage_percent": 0.52,
+            "used_mb": 81.17
         },
         {
-            "usage_percent": 0.63,
-            "used_mb": 99.03
+            "usage_percent": 0.52,
+            "used_mb": 81.18
+        },
+        {
+            "usage_percent": 0.52,
+            "used_mb": 81.18
+        },
+        {
+            "usage_percent": 0.52,
+            "used_mb": 81.18
+        },
+        {
+            "usage_percent": 0.52,
+            "used_mb": 81.18
+        },
+        {
+            "usage_percent": 0.52,
+            "used_mb": 81.18
         }
     ],
     "disk": [
@@ -37,11 +89,27 @@
             "write_mb": 0.0
         },
         {
-            "read_mb": 0.01,
+            "read_mb": 0.0,
+            "write_mb": 0.0
+        },
+        {
+            "read_mb": 0.03,
+            "write_mb": 0.01
+        },
+        {
+            "read_mb": 0.0,
+            "write_mb": 0.0
+        },
+        {
+            "read_mb": 0.03,
+            "write_mb": 0.01
+        },
+        {
+            "read_mb": 0.02,
             "write_mb": 0.0
         }
     ],
-    "time_to_first_token": 0.28745650000928435,
-    "tokens_per_second": 62934407413.886536,
-    "total_duration": 1.219802
+    "time_to_first_token": 0.4260123999993084,
+    "tokens_per_second": 76918351428.07437,
+    "total_duration": 2.6200084
 }
