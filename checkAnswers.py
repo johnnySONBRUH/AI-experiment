@@ -22,15 +22,15 @@ def checkByName(results,dataset,model):
             if results['answers'][x] == results['response'][x]:
                 c += 1
     elif name == 'ARC-CHALLENGE':
-        for x in range(len(results)):
+        for x in range(len(results['answers'])):
             if results['answers'][x] == results['response'][x]:
                 c += 1
     elif name == 'MATH-500':
-        for x in range(len(results)):
+        for x in range(len(results['answers'])):
             if results['answers'][x] == results['response'][x]:
                 c += 1
     elif name == 'HUMANEVAL+':
-        for x in range(len(results)):
+        for x in range(len(results['answers'])):
             if results['answers'][x] == results['response'][x]:
                 c += 1
     with open(path,'w') as f:
