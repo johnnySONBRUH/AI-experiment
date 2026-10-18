@@ -106,7 +106,7 @@ for model in constants.MODELS:
             totalEvalDuration += final_response.eval_duration / 1e9 #seconds
         print(f'Evaluating {model} on {dataset} done.')
         print(answers)
-        tps = (totalEvalCount / totalEvalDuration) * 1e9 if totalEvalDuration > 0 else 0 #tokens per second
+        tps = (totalEvalCount / totalEvalDuration) if totalEvalDuration > 0 else 0 #tokens per second
         resources['time_to_first_token'] = timeToFirstToken
         resources['tokens_per_second'] = tps
         resources['total_duration'] = totalDuration

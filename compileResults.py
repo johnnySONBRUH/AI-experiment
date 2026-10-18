@@ -4,6 +4,8 @@ def summariseJSON(dataset,model):
     path = 'results'
     with open(f'{path}/{dataset}/{model}/data.json','r') as f:
         return json.loads(f.read())
+def validateGPU(stats):
+    if gpu['']
 def compile():
     import os
     import json
