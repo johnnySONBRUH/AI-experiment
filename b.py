@@ -1,2 +1,3 @@
-from compileResults import compile
-compile()
+from datasets import load_dataset
+dataset = load_dataset("openai/gsm8k",'main')
+dataset.save_to_disk('datasets/GSM8K')

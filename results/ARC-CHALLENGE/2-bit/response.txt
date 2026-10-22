@@ -1,2 +1,2 @@
-  
-['C', 'B', 'C']0<- correct
+C B  D 
+['C', 'B', 'C', 'D', 'D']3<- correct

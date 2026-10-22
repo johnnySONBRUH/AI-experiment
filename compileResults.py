@@ -19,7 +19,7 @@ def compile():
             p = f'{path}/{dataset}/{model}'
             data = summariseJSON(dataset,model)
             for gpu in data['gpu']:
-                if d2['gpuVRAM'] > 0:
+                if gpu['0']['vram_used'] > 0:
                     d2['gpuVRAM'] = gpu['0']['vram_used'] + d2.get('gpuVRAM',0)
             for usage in data['cpu']:
                 d2['cpu'] = usage + d2.get('cpu',0)
@@ -32,9 +32,9 @@ def compile():
             totalRam = len(data['ram'])
             totalCpu = len(data['cpu'])
             totalGpu = len(data['gpu'])
-            d2['time_to_first_token'] = data['time_to_first_token']
-            d2['tokens_per_second'] = data['tokens_per_second']
-            d2['total_duration'] = data['total_duration']
+            d2['time_to_first_token'] = round(sum(data['time_to_first_token']) / len(data['time_to_first_token']),3)
+            d2['tokens_per_second'] = round(sum(data['tokens_per_second']) / len(data['tokens_per_second']),3)
+            d2['total_duration'] = round(sum(data['total_duration']) / len(data['total_duration']),3)
             d2['gpuVRAM'] = round(d2['gpuVRAM'] / totalGpu, 3)
             d2['cpu'] = round(d2['cpu'] / totalCpu, 3)
             d2['ramUsedMB'] = round(d2['ramUsedMB'] / totalRam, 3)
